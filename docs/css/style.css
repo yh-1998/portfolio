@@ -1,0 +1,312 @@
+@font-face {
+font-family: 'courier';
+src: url('../font/Courier_New.ttf') format('truetype');
+}
+
+@font-face{
+font-family: 'helvetica';
+src: url('../font/HelveticaNeueLTStd-Md.otf') fotmat('opentype');
+}
+
+@font-face{
+font-family: 'baskerville';
+src: url('../font/Baskerville.ttc') fotmat('truetype');
+}
+
+@font-face{
+font-family: 'hiragino-w3';
+src: url('../font/hiragino-W3.ttc') fotmat('truetype');
+}
+@font-face{
+font-family: 'hiragino-w5';
+src: url('../font/hiragino-W5.ttc') fotmat('truetype');
+}
+
+
+html{
+    height: 100%;
+}
+
+
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+#wrapper{
+    margin: 0 auto 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+#header{
+    width: auto;
+    padding: 30px 0;
+    border-bottom: solid 2px #f5f5f5;
+}
+
+.titl{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 0 0;
+}
+
+.logo{
+    width: 350px;
+}
+
+#nav{
+    text-align: center;
+    padding: 0;
+}
+
+ul{
+   padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 10px 0 15px;
+    letter-spacing: 2px;
+}
+
+
+#contents{
+    width: 1000px;
+    margin: auto;
+}
+
+.hp-titl{
+    text-align: center;
+    margin: auto;
+    padding: 30px 0 10px;
+    font-family: 'baskerville';
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 170%;
+}
+
+.pg-box{
+    display: flex;
+    flex-flow: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 0 40px;
+}
+
+.pg-img{
+    width: 255px;
+    height: 255px;
+    background-color: azure;
+    margin: 25px auto 50px;
+    outline: solid 1px #f5f5f5;
+}
+
+.box-img{
+    width: 255px;
+}
+
+
+#footer{
+    width: 100%;
+    margin: auto auto 0;
+    padding: 0 0 10px;
+    border-top: solid 2px #f5f5f5;
+    font-size: 80%;
+}
+
+.fr{
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'courier';
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'helvetica';
+    font-size: 120%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ここからスマホ用スタイル */
+
+@media screen and ( max-width:479px )
+{
+    
+/*メニュー部分*/
+#ham-menu {
+    background-color: #fff; /*メニュー背景色*/
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px 40px; /*メニュー内部上下左右余白*/
+    position: fixed;
+    right: -250px; /*メニュー横幅①と合わせる*/
+    top: 0;
+    transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 250px; /*メニュー横幅①*/
+    z-index: 1000;
+}
+
+/*メニューアイコン部分は疑似要素で*/
+#ham-menu::before {
+    background-color: #fff; /*ボタン部分背景色*/
+    border-radius: 0 0 0 10px; /*左下角丸*/
+    color: #333; /*アイコン（フォント）色*/
+    content: "≡"; /*メニューアイコン*/
+    display: block;
+    font-size: 50px; /*アイコン（フォント）サイズ*/
+    height: 50px;
+    line-height: 50px; /*縦位置中央化*/
+    position: absolute;
+    right: 100%;
+    text-align: center;
+    top: 0;
+    width: 50px;
+}
+
+/*透過背景部分*/
+#menu-background {
+    background-color: #333; /*黒背景部分背景色*/
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
+    width: 100%;
+    z-index: -1;
+}
+
+/*hover 時の処理*/
+#ham-menu:hover {
+    transform: translate(-250px); /*メニュー横幅①と合わせる*/
+}
+
+#ham-menu:hover + #menu-background {
+    opacity: 0.5; /*黒背景部分透過度*/
+    z-index: 999;
+}
+    
+#nav{
+     display: none;
+} 
+    
+    html{
+        height: 100%;
+    }
+    
+    body{
+        box-sizing: border-box;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    #wrapper{
+        
+    }
+    
+    #header{
+        padding: 10px 0;
+        border-bottom: solid 2px #f5f5f5;
+    }
+    
+    .menu{
+        margin: 0 0 20px 35px;
+    }
+    
+    .in-menu{
+        list-style-type: square;
+    }
+    
+    ul{
+        
+    }
+    
+    li{
+        display: list-item;
+        margin: 0 0 10px;
+    }
+    
+    li+ li{
+        border-left: none;
+    }
+    
+    .titl{
+        
+    }
+    
+    .logo{
+        width: 200px;
+    }
+    
+    #contents{
+        width: 300px;
+    }
+    
+    .hp-titl{
+        
+    }
+    
+    .pg-box{
+        margin: 0 0 40px;
+        padding: 0;
+    }
+    
+    .pg-img{
+        width: 255px;
+        height: 130px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        vertical-align: middle;
+        margin: 20px auto;
+        outline: solid 1px #f5f5f5;
+    }
+    
+    .box-img{
+        width: 255px;
+        position: absolute;
+        top: -100%;
+        left: 0;
+        right: 0;
+        bottom: -100%;
+        margin: auto;
+        
+        
+        
+    }
+    
+    #footer{
+        
+    }
+    
+    .fr{
+        
+    }
+    
+    
+    
+    
+    
+}
+
+
+/* ハンバーガーメニュー非表示 */
+
+@media screen and (min-width:480px) {
+    
+#ham-menu {
+    display:none;
+    
+}
