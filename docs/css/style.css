@@ -155,6 +155,23 @@ a{
     transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
     width: 250px; /*メニュー横幅①*/
     z-index: 1000;
+    
+    
+    
+    
+    
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    
+    
+    
+    
+    
 }
 
 /*メニューアイコン部分は疑似要素で*/
