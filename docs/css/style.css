@@ -268,7 +268,7 @@ a{
     }
     
     .pg-img{
-        width: 300px;
+        width: 100%;
         height: 130px;
         position: relative;
         overflow: hidden;
