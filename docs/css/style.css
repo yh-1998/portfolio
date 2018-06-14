@@ -65,10 +65,6 @@ body{
     padding: 0;
 }
 
-.menu-pc{
-    color: dimgrey;
-}
-
 .menu-pc:hover {color:#cdcdcd;} 
 
 ul{
@@ -137,7 +133,7 @@ li{
 
 a{
     text-decoration: none;
-    color: #cdcdcd;
+    color: black;
     font-family: 'helvetica';
     font-size: 120%;
     text-align: center;
