@@ -157,6 +157,7 @@ a{
     
 #ham-menu {
     background-color: #fff; /*メニュー背景色*/
+    opacity: 0.9;
     box-sizing: border-box;
     height: 100%;
     padding: 10px 40px; /*メニュー内左右上下余白*/

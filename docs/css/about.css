@@ -158,6 +158,7 @@ a{
     
 #ham-menu {
     background-color: #fff; /*メニュー背景色*/
+    opacity: 0.9;
     box-sizing: border-box;
     height: 100%;
     padding: 10px 40px; /*メニュー内左右上下余白*/
@@ -183,7 +184,6 @@ a{
 }
 
 #menu-icon {
-    background-color: #fff; /*アイコン部分背景色*/
     border-radius: 0 0 0 10px; /*左下角丸*/
     color: #333; /*アイコン（フォント）色*/
     cursor: pointer;
