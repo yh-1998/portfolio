@@ -65,6 +65,8 @@ body{
     padding: 0;
 }
 
+.menu-pc:hover {color:#cdcdcd;}
+
 ul{
    padding: 0;
 }
@@ -91,6 +93,8 @@ li{
     border-left: none;
     padding: 0 10px;
 }
+
+.category-a:hover {color:#cdcdcd;}
 
 .category-p{
     display: inline;
@@ -156,7 +160,7 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: dimgray;
     font-family: 'helvetica';
     font-size: 120%;
     text-align: center;

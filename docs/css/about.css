@@ -65,6 +65,8 @@ body{
     padding: 0;
 }
 
+.menu-pc:hover {color:#cdcdcd;}
+
 ul{
    padding: 0;
 }
@@ -142,7 +144,7 @@ h5{
 
 a{
     text-decoration: none;
-    color: black;
+    color: dimgray;
     font-family: 'helvetica';
     font-size: 120%;
     text-align: center;
