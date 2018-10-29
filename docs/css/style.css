@@ -313,7 +313,7 @@ a{
 
 /* ハンバーガーメニュー非表示 */
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:479px) {
     
 #ham-menu {
     display:none;
