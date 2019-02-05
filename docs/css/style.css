@@ -61,7 +61,7 @@ body{
 }
 
 .logo{
-    width: 300px;
+    width: 600px;
 }
 
 #nav{
@@ -263,7 +263,7 @@ a{
     }
     
     .logo{
-        width: 50%;
+        width: 300px;
     }
     
     #contents{
