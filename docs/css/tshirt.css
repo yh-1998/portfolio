@@ -21,10 +21,6 @@ src: url('../font/hiragino-W3.ttc') fotmat('truetype');
 font-family: 'hiragino-w5';
 src: url('../font/hiragino-W5.ttc') fotmat('truetype');
 }
-@font-face{
-font-family: 'Kefa';
-src: url('../font/Kefa.ttc') fotmat('truetype');
-}
 
 
 html{
@@ -50,14 +46,13 @@ body{
 #header{
     width: auto;
     padding: 20px 0 10px;
-    border-bottom: solid 2px #f5f5f5;
 }
 
 .titl{
     display: block;
     text-align: center;
     vertical-align: middle;
-    padding: 0px 0 0;
+    padding: 5px 0 0;
 }
 
 .logo{
@@ -69,7 +64,7 @@ body{
     padding: 0;
 }
 
-.menu-pc:hover {color:#cdcdcd;} 
+.menu-pc:hover {color:#cdcdcd;}
 
 ul{
    padding: 0;
@@ -80,41 +75,93 @@ li{
     display: inline;
     padding: 0 10px 0 15px;
     letter-spacing: 2px;
+    
 }
 
+.category{
+    display: block;
+    margin-top: 0;
+    text-align: center;
+}
+
+.category-1{
+    padding: 10px 0 0;
+}
+
+.category-2{
+    display: inline;
+    border-left: none;
+    padding: 0 10px;
+}
+
+.category-p{
+    display: inline;
+    color: #808080;
+    text-decoration: none;
+    font-family: 'helvetica';
+    letter-spacing: 1px;
+    font-size: 95%;
+    padding-right: 10px;
+}
+
+.category-a{
+    color: #808080;
+    text-decoration: none;
+    font-family: 'helvetica';
+    letter-spacing: 1px;
+    font-size: 95%;
+}
+
+.category-a:hover {color:#cdcdcd;}
 
 #contents{
+    width: auto;
+    margin: auto;
+}
+
+.pg-titl{
+    text-align: right;
     width: 1000px;
-    margin: auto;
+    margin: 50px auto 0;
 }
 
-.hp-titl{
+.in-s-contents{
+    margin: 30px 0 0;
+}
+
+.s-con-img{
+    width: 1000px;
+}
+
+h4{
     text-align: center;
+    font-size: 100%;
+}
+
+.in-titl{
     margin: auto;
-    padding: 30px 0 10px;
-    font-family: 'Kefa';
+    padding: 30px 0 0;
+}
+
+.in-contents{
+    margin: 50px 0 80px;
+}
+
+.s-comment{
+    width: 1000px;
+    text-align: center;
+    font-size: 84%;
+}
+
+.con-img{
+    width: 1000px;
+}
+
+.comment{
+    font-family: 'courier';
+    margin: 0 0 50px;
+    font-size: 90%;
     letter-spacing: 1px;
-    font-size: 170%;
-}
-
-.pg-box{
-    display: flex;
-    flex-flow: row-reverse;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 0 40px;
-}
-
-.pg-img{
-    width: 255px;
-    height: 255px;
-    background-color: #f5f5f5;
-    margin: 25px auto 50px;
-    outline: solid 1px #f3f3f3;
-}
-
-.box-img{
-    width: 255px;
 }
 
 
@@ -122,7 +169,6 @@ li{
     width: 100%;
     margin: auto auto 0;
     padding: 0 0 10px;
-    border-top: solid 2px #f5f5f5;
     font-size: 80%;
 }
 
@@ -141,22 +187,6 @@ a{
     font-size: 120%;
     text-align: center;
     vertical-align: middle;
-}
-
-.fuck{
-    display: block;
-    width: 300px;
-    margin: 0 auto;
-    padding: 0 0 50px;
-    color: red;
-    font-family: 'helvetica';
-}
-
-
-
-
-.box-img:hover{
-    opacity: 0.5;
 }
 
 /* ここからスマホ用スタイル */
@@ -192,7 +222,6 @@ a{
 }
 
 #menu-icon {
-     /*アイコン部分背景色*/
     border-radius: 0 0 0 10px; /*左下角丸*/
     color: #333; /*アイコン（フォント）色*/
     cursor: pointer;
@@ -243,7 +272,6 @@ a{
     
     #header{
         padding: 10px 0;
-        border-bottom: solid 2px #f5f5f5;
     }
     
     .menu{
@@ -268,7 +296,7 @@ a{
     }
     
     .titl{
-        text-align: left;
+        text-align: center;
         padding: 5px 0 0 10px;
     }
     
@@ -276,41 +304,34 @@ a{
         width: 300px;
     }
     
+    .pg-titl{
+        text-align: right;
+        width: 95%;
+        margin: 5px 10px 0;
+        padding: 10px 0;
+        
+    }
+    
     #contents{
         width: 300px;
     }
     
-    .hp-titl{
-    }
-    
-    .pg-box{
-        margin: 0 0 40px;
-        padding: 0;
-    }
-    
-    .pg-img{
+    .s-con-img{
         width: 300px;
-        height: 130px;
-        position: relative;
-        overflow: hidden;
-        text-align: center;
-        vertical-align: middle;
-        margin: 10px auto;
-        outline: solid 1px #f5f5f5;
     }
     
-    .box-img{
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: -100%;
-        left: 0;
-        right: 0;
-        bottom: -100%;
-        margin: auto;
-        
-        
-        
+    .s-comment{
+    width: 300px;
+    text-align: center;
+    font-size: 84%;
+    }    
+    
+    .con-img{
+        width: 300px;
+    }
+    
+    .comment{
+        font-size: 50%
     }
     
     .ham-a{
@@ -318,18 +339,21 @@ a{
     }
     
     
+    
+    
+    
 }
 
 
 /* ハンバーガーメニュー非表示 */
 
-@media screen and (min-width:479px) {
+@media screen and (min-width:480px) {
     
 #ham-menu {
     display:none;
     
 }
-
+    
     #menu-cb{
         display:none;
     }
