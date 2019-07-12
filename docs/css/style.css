@@ -143,6 +143,15 @@ a{
     vertical-align: middle;
 }
 
+.fuck{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    color: red;
+    font-family: 'helvetica';
+}
+
+
 
 
 .box-img:hover{
