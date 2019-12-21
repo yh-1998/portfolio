@@ -307,6 +307,9 @@ a{
         color: black;
     }
     
+    #footer{
+    border-top: none;
+}
     
     
     
