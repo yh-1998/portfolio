@@ -112,3 +112,15 @@ img{
 
 
 
+
+/* mobile */
+
+@media screen and ( max-width:479px )
+{
+    
+    body{
+        height: 100hv;
+        min-width:  100hv;
+    }
+    
+}
