@@ -106,7 +106,7 @@ img{
     margin: 40px 0;
 }
 
-.img-con > a{
+.jump-button{
     display: block;
     margin: 0 20px 0 20px;
     text-align: right;
