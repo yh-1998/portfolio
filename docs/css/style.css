@@ -29,14 +29,14 @@ body{
 p{
     font-size: 0.875em;
     font-family: 'din';
-    margin: 30px 20px 0 20px;
+    margin: 1.875em 1.25em 0 1.25em;
     line-height: 1.6em;
 }
 
 h4{
     font-size: 1.25em;
     font-family: 'din';
-    margin: 0 0 0 20px;
+    margin: 0 0 0 1.25em;
 }
 
 a{
@@ -48,12 +48,12 @@ a{
 
 ul{
     padding: 0;
-    margin: 20px 0 0 20px;
+    margin: 1.25em 0 0 1.25em;
 }
 
 li{
     list-style-type: none;
-    margin: 0 0 5px 0;
+    margin: 0 0 0.313em 0;
 }
 
 li > a:hover{
@@ -73,7 +73,7 @@ img{
     min-height: 100vh;
     position: relative;
     margin: 0 auto 0;
-    padding-bottom: 132px;
+    padding-bottom: 4.75em;
     box-sizing: border-box;
 }
 
@@ -82,17 +82,17 @@ img{
 }
 
 #content{
-    padding-top: 76px;
+    padding-top: 4.75em;
 }
 
 #footer{
-    margin: 60px 0 60px 0;
+    margin: 3.75em 0 3.75em 0;
     position: absolute;
     bottom: 0;
 }
 
 #footer > p{
-    margin: 0 0 0 20px;
+    margin: 0 0 0 1.25em;
 }
 
 
@@ -101,18 +101,18 @@ img{
 /* class */
 
 .header-logo-img{
-    width: 130px;
+    width: 8.125em;
     vertical-align: middle;
-    margin: 30px 0 30px 20px;
+    margin: 1.875em 0 1.875em 1.25em;
 }
 
 .img-con{
-    margin: 40px 0;
+    margin: 2.5em 0;
 }
 
 .jump-button{
     display: block;
-    margin: 0 20px 0 20px;
+    margin: 0 1.25em 0 1.25em;
     text-align: right;
     font-size: 0.625em;
     text-decoration-line: underline;
@@ -121,7 +121,7 @@ img{
 
 .comment{
     font-family: 'courier';
-    margin: 10px 0 0 20px;
+    margin: 0.625em 0 0 1.25em;
 }
 
 
