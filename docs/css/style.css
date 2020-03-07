@@ -82,7 +82,7 @@ img{
 }
 
 #content{
-    padding-top: 76px;
+    padding-top: 126px;
 }
 
 #footer{
@@ -101,7 +101,7 @@ img{
 /* class */
 
 .header-logo-img{
-    width: 130px;
+    width: 60px;
     vertical-align: middle;
     margin: 30px 0 30px 20px;
 }
