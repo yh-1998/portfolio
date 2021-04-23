@@ -45,6 +45,7 @@ p{
 }
 
 #footer{
+    padding: 40px 0 0 0;
     margin: 9px 0 40px 16px;
     width: 100%;
     position: absolute;
@@ -113,7 +114,10 @@ p{
 {
     
     body{
-        
+    }
+    
+    .btn{
+        height: 40px;
     }
     
 }
