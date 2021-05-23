@@ -138,6 +138,15 @@ h1{
     color: #646464;
 }
 
+.title-url{
+    margin: 0 0 0 0.5em;
+    font-family: neo-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #9A9A9A;
+    text-decoration: underline;
+}
+
 .text{
     margin: 2.4375em 0 2.5em 1em;
     font-family: dinosaur, sans-serif;
