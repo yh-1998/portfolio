@@ -155,6 +155,15 @@ h1{
     color: #646464;
 }
 
+.text-url{
+    margin: 2.4375em 0 2.5em 0;
+    font-family: dinosaur, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #646464;
+    text-decoration: underline;
+}
+
 .tools{
     margin: 0 0 2.5em 1em;
     font-family: dinosaur, sans-serif;
